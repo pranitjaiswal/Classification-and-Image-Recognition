@@ -8,3 +8,7 @@ Project for coding culture hackathon. And yes, Pranit really rox.
 [MET Museum](https://www.metmuseum.org/)
 
 [WikiArt](https://www.wikiart.org/) [WikiArt data retriever](https://github.com/lucasdavid/wikiart)
+
+[AR.js-Efficient AR for the web](https://jeromeetienne.github.io/AR.js/)
+
+[NativeScript - Developing native JS mobile apps](https://docs.nativescript.org/)
