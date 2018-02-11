@@ -10,22 +10,24 @@ from matplotlib import pyplot as plt
 import concurrent
 from concurrent import futures
 
-
+#function to convert image to black and white template image
 def createtempimg(imgpath):
-	i=io.imread(imgpath)
-	img=color.rgb2gray(i)
+	i=io.imread(imgpath) #read image from path
+	img=color.rgb2gray(i) #convert to grayscale
 #	imgd=transform.rescale(img, 0.25)
-	imgsobel=filters.sobel(img)
-	imgsobelexp=exposure.equalize_adapthist(imgsobel)
-	imgcanny=feature.canny(img,sigma=2.5)
-	imgblended = imgsobelexp+imgcanny
-
+	imgsobel=filters.sobel(img) #apply sobel filter
+	imgsobelexp=exposure.equalize_adapthist(imgsobel) #histogram equalization for better dynamic range
+	imgcanny=feature.canny(img,sigma=2.5) #apply canny edge detection
+	imgblended = imgsobelexp+imgcanny #combine sobel and canny results for final template image
+	
+	#naming conventions follow
 	patharray=imgpath.split('/')
 	imgnameparts=patharray[-1].split('.')
 	imgpath='/'.join(patharray[0:-1])+'/'+'.'.join(imgnameparts[0:-1])+'BW'
-	plt.imsave(imgpath,imgblended,cmap="gray")
+	plt.imsave(imgpath,imgblended,cmap="gray") #save image in same folder with new name
 	return
 
+#code for parallel execution follows
 with concurrent.futures.ProcessPoolExecutor() as executor:
 	dirpath = sys.argv[1]
 	paths = glob.glob(dirpath+'*')
