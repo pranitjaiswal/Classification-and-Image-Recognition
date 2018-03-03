@@ -19,6 +19,6 @@ Project for coding culture hackathon.
 
 [DeepLearn.js](https://deeplearnjs.org/demos/mnist/mnist.html)
 
-[Neo4j for PHP](https://neo4j.com/developer/php/)
+[Neo4j for Python Web App With Flask](https://neo4j.com/blog/building-python-web-application-using-flask-neo4j/)
 
 [TensorFlow Classification with Multiple Tags](https://github.com/BartyzalRadek/Multi-label-Inception-net)
