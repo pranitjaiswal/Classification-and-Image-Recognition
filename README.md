@@ -17,5 +17,5 @@ Project for coding culture hackathon.
 
 [pHash](https://www.phash.org/)
 
-[DeepLearn.js] (https://deeplearnjs.org/demos/mnist/mnist.html)
+[DeepLearn.js](https://deeplearnjs.org/demos/mnist/mnist.html)
 
