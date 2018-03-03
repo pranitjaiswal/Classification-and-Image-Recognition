@@ -15,5 +15,7 @@ Project for coding culture hackathon.
 
 [Artistic Style Transfer - Excellent Neural Network Explanation](https://harishnarayanan.org/writing/artistic-style-transfer/)
 
-pHash https://www.phash.org/
+[pHash](https://www.phash.org/)
+
+[DeepLearn.js] (https://deeplearnjs.org/demos/mnist/mnist.html)
 
