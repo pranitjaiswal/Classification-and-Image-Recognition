@@ -1,5 +1,5 @@
-# PranitRox
-Project for coding culture hackathon. And yes, Pranit really rox.
+# Coding Culture Hackathon
+Project for coding culture hackathon.
 
 ## Code
 
