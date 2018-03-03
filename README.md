@@ -24,3 +24,5 @@ Project for coding culture hackathon.
 [TensorFlow Classification with Multiple Tags](https://github.com/BartyzalRadek/Multi-label-Inception-net)
 
 [How Modification of Original Script Was Done](https://towardsdatascience.com/multi-label-image-classification-with-inception-net-cbb2ee538e30)
+
+[Flask and Python tutorial](https://blog.miguelgrinberg.com/post/the-flask-mega-tutorial-part-i-hello-world)
