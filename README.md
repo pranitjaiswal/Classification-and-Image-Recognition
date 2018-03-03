@@ -22,3 +22,5 @@ Project for coding culture hackathon.
 [Neo4j for Python Web App With Flask](https://neo4j.com/blog/building-python-web-application-using-flask-neo4j/)
 
 [TensorFlow Classification with Multiple Tags](https://github.com/BartyzalRadek/Multi-label-Inception-net)
+
+[How Modification of Original Script Was Done](https://towardsdatascience.com/multi-label-image-classification-with-inception-net-cbb2ee538e30)
