@@ -1,5 +1,5 @@
 # Coding Culture Hackathon
-Project for coding culture hackathon - Image classification and object recognition
+Project for coding culture hackathon - Image classification and object detection
 
 ## Datasets
 
